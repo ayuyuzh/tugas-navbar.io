@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Ayu</title>
+    <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+    <div class="w3-container">
+        <img src="background.png" alt="" style="width: 100%; height: 400px; background-repeat: no-repeat; background-size: cover; background-position: top;">
+    </div>
+    <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openKota('Home')">
+            <img src="home.png" alt="" width="20" height="20" style="background-color: white;">
+        </button>
+        <button class="w3-bar-item w3-button" onclick="openKota('Morpho')">The Blue Morpho</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('Lankan')">The Sri Lankan Ceylon Rose</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('Glasswing')">The Glasswing Butterfly</button>
+        <button class="w3-bar-item w3-button" onclick="openKota('Sapho')">Sapho Longwings</button>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button w3-button">Kupu-Kupu</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+                <button class="w3-bar-item w3-button" onclick="openKota('Spicebrush')">Spicebrush Swallowtails</button>
+              <a href="#" class="w3-bar-item w3-button" onclick="openKota('Malabar')">Malabar Banded Peacock</a>
+            </div>
+        </div>
+        <button class="w3-bar-item w3-button" onclick="openKota('Profile')">Profile</button>
+    </div>
+    <div id="Home" class="w3-container kota">
+        <center>
+            <h2>Kupu-Kupu</h2>
+            <p>Beberapa Referensi Tentang jenis tentang Kupu-Kupu</p>
+        </center>
+
+    </div>
+    <div id="Morpho" class="w3-container kota w3-animate-top" style="display:none">
+        <h2>The Blue Morpho</h2>
+        <p>Jenis kupu-kupu dengan ciri khas unik yang pertama adalah The Blue Morpho. Jenis kupu-kupu ini memiliki sayap yang terbilang cukup besar. Pada sayapnya, Anda bisa melihat gradasi warna biru dan hitam sehingga membuat kupu-kupu ini terlihat sangat memukau dan memesona. Kemudian tambahan corak bintik putih dan merah di sepanjang sayapnya membuat kupu-kupu ini menjadi begitu elegan.
+
+        Kupu-kupu ini memiliki habitat di hutan hujan Brasil dan Venezuela. Kupu kupu jantan memiliki warna yang sangat cerah, sedangkan betina tidak berwarna secerah yang dimiliki jantan.</p>
+        <img src="morpho.jpeg" alt="" width="400" height="200">
+    </div>
+    <div id="Lankan" class="w3-container kota w3-animate-bottom" style="display:none">
+        <h2>The Sri Lankan Ceylon Rose</h2>
+        <p>
+            Jenis kupu-kupu dengan ciri khas unik yang ketiga adalah The Sri Lankan Ceylon Rose. Anda bisa langsung mengenali jenis kupu-kupu ini ketika melihat bentuk sayap mereka. Bentuk sayap yang memanjang di bagian atas dekat dengan kepala serta memiliki beberapa lekukan-lekukan di bagian bawah sayap membuat bentuk kupu-kupu sangat khas dan unik.
+            Tampilan sayap yang berwarna hitam, putih, serta sedikit warna cokelat, menambah kupu-kupu ini semakin terlihat elegan.</p>
+        <img src="lankan.jpeg" width="400" height="200">
+    </div>
+    <div id="Glasswing" class="w3-container kota w3-animate-left" style="display:none">
+        <h2>The Glasswing Butterfly</h2>
+        <p>PJenis kupu-kupu dengan ciri khas unik yang kedua adalah The Glasswing Butterfly. Ketika Anda melihat jenis kupu-kupu ini, Anda akan terkesima dengan keunikan yang dimilikinya.
+
+        Hal ini karena sayap pada kupu-kupu ini tempus pandang. Dengan tulang-tulang sayap yang menghiasi sayap tembus pandang tersebut, menambah keunikan mereka. Kecantikan The Glasswing Butterfly semakin bertambah dengan warna hitam, putih, serta sedikit warna cokelat yang menghiasi ujung sayapnya..</p>
+        <img src="Glasswing.jpeg" alt="" width="400" height="200">
+    </div>
+    <div id="Sapho" class="w3-container kota w3-animate-right" style="display:none">
+        <h2>Sapho Longwings</h2>
+        <p>Jenis kupu-kupu dengan ciri khas unik yang keempat yaitu Sapho Longwings. Jenis kupu-kupu yang cantik ini bisa ditemui di kawasan Meksiko dan Ekuador. Memiliki corak dengan dominasi warna biru navy serta dihiasi dengan warna putih di tengah sayap membuat tampilan kupu-kupu ini terlihat sangat memesona dan juga unik.</p>
+        <img src="sapho.jpeg" alt="" width="400" height="400">
+    </div>
+    <div id="Spicebrush" class="w3-container kota w3-animate-right" style="display:none">
+        <h2>Spicebrush Swallowtails</h2>
+        <p>Jenis kupu-kupu dengan ciri khas unik yang kelima adalah Spicebrush Swallowtails. Jenis kupu-kupu ini juga merupakan jenis yang terbesar di dunia. Rentang sayap kupu-kupu ini bisa mencapai 4 inchi. Kupu-kupu ini dihiasi dengan warna hitam dan sedikit warna putih sehingga membuatnya terkesan misterius dan unik.</p>
+        <img src="spicebrush.jpeg" alt="" width="400" height="400">
+    </div>
+    <div id="Malabar" class="w3-container kota w3-animate-right" style="display:none">
+        <h2>Malabar Banded Peacock</h2>
+        <p>Jenis kupu-kupu dengan ciri khas unik yang keenam yaitu Malabar Banded Peacock. Bersiaplah terpesona dengan tampilan warna yang ada pada kupu-kupu ini. Kupu-kupu ini memiliki warna sayap hitam sedangkan bagian dalam sayapnya berwarna turquoise, sehingga membuatnya terlihat sangat anggun. Anda bisa menemui jenis kupu-kupu ini di daerah Ghats barat India. Sayangnya, jumlah kupu-kupu cantik ini sudah mulai berkurang.</p>
+        <img src="malabar.jpeg" alt="" width="400" height="400">
+    </div>
+    <div id="Profile" class="w3-container kota w3-animate-right" style="display:none">
+        <center>
+        <h2>My Profile</h2>
+        <table>
+            <tr>
+                <td>Nama : Tri Ayu Zahidah</td>
+            </tr>
+            <tr>
+                <td>NIM : 10122070</td>
+            </tr>
+            <tr>
+                <td>Kelas : IF-2</td>
+            </tr>
+        </table>
+    </center>
+    </div>
+    
+<script>
+function openKota(namakota) {
+ var i;
+ var x = document.getElementsByClassName("kota");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ document.getElementById(namakota).style.display = "block";
+}
+</script>
+</body>
+</html>
